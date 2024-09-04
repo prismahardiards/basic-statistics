@@ -1,0 +1,46 @@
+<h2 id="statement">3</h2>
+Fill in Blanks<br>
+<DIV class="fl" style="width: 670px; height: 620px"><h4 id="code">Source Code</h4>
+<pre class="prettyprint" id="scoring-res">
+01: # Example dataset
+02: data = [2, 2, 4, 4, 6, 6, 9, 6, 6, 9]
+03: 
+04: # Determine the frequency
+05: frequency = {}
+06: for str in data :
+07:     if str in frequency :
+08:         frequency[str] += 1
+09:     else :
+10:         frequency[str] = 1
+11: 
+12: # Determine the maximum frequency
+13: maxs = max(<input size=2 ans="23fff692a6e1a61fdb25ec3637c55310d7a3d6687217b195fa145c4a99ed4849" placeholder="1"></input>(frequency.<input size=2 ans="d2e83c2d5c9993604ac5b4848167534579a1d1bc346bcf233272bf40bccded74" placeholder="2"></input>()))
+14: print("maxs", maxs)
+15: 
+16: # Identification of mode
+17: mode = [key for key, <input size=2 ans="0b26c484631376ac1c4b00a840f2234747e5c8f6eeaf71ed8900da6d2efde527" placeholder="3"></input> in frequency.items() if <input size=2 ans="ccc9e0eb46e9582bd8cc4efe92ad587240cf1ebbdacd8ac54ef6bff7b48533bc" placeholder="4"></input> == <input size=2 ans="4717c0a9afbb978502426641871d93fbf3d7dfdbce3bcba01f6c0b05453cddfb" placeholder="5"></input>]
+18: print("mode", mode)
+19: 
+20: # Output Value
+21: maxs: 4
+22: mode: 6<br>
+Q1. Which keyword is used to determine record the number of frequency of each element ? <input size=2 ans="67650eeacfc314504abf5fd92c532cb773ebbc025261641f9b7301a3bdc9796a" placeholder="6"></input>
+Q2. Which function is used to find the maximum value of a list or iterable? <input size=2 ans="2a1e68919ddb7564beaa1adf1f5a961e85b78ff11f28d4143fea04477539a31e" placeholder="7"></input>
+Q3. Which function is used to returns a list of all the values from the dictionary? <input size=2 ans="7b234400e2e9db5188bc76e54a6752ca91ece1be31a0dcbd396e9f525b3b7a07" placeholder="8"></input>
+Q4. Which keyword is used to determine the initial data ? <input size=2 ans="b23bc718d99f2f2a129aad436f5cc8807aa879260c2915d6eabf79afeee82caa" placeholder="9"></input>
+Q5. What is the value of mode? <input size=2 ans="c8b586101e25a9d10caa8d7da8691ed67ce637d4fe101d6cf593ffd963bd003b" placeholder="10"></input>
+</DIV>
+</pre>
+<DIV class="fl" style="width: 430px; height: 620px"><h4 id="code">Description</h4>
+<pre class="prettyprint" id="scoring-res"><img src="./img/3-mode.png" alt="Mode">
+</pre>
+</DIV><DIV class="fr" style="width: 1100px; height: 130px"><h4 id="code1">References</h4>
+<pre class="prettyprint" id="scoring-res">
+<h2 id="code1"></h2><a href="./references/references.pdf" target="_blank">Download</a>
+</pre>
+</DIV><a class="btn" href="javascript:newScoring()">Answer</a>
+<script type="text/javascript">
+$(function(){
+ prettyPrint();
+});
+</script>

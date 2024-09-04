@@ -1,0 +1,45 @@
+<h2 id="statement">2</h2>
+Fill in Blanks<br>
+<DIV class="fl" style="width: 670px; height: 620px"><h4 id="code">Source Code</h4>
+<pre class="prettyprint" id="scoring-res">
+01: # Library used
+02: import numpy as np
+03: 
+04: # Example dataset
+05: odd = [18, 2, 10, 8, 6, 14, 12, 4, 16]
+06: even = [18, 2, 10, 8, 20, 6, 14, 12, 4, 16]
+07: 
+08: # Calculate median for odd data
+09: x1 = np.<input size=2 ans="32cfd1e11c1d2cabf1483671f9c182657205c2aff22c56630c5996300c1566c1" placeholder="1"></input>(odd)
+10: n1 = <input size=2 ans="6f47a0e063adae317af0622e761dc364a59ffc836a8ef9d6ccc6a4b8b8f7bd42" placeholder="2"></input>(x1)
+11: modd = x1[<input size=2 ans="c59c091cf4c74797fa1fd908b323bc8b1b5231c6be209d84bf6d6e6edeb2a2a5" placeholder="3"></input>(n1 <input size=2 ans="c8be8722ce1e552022c4f9e2b8a03655dacb5ec543cc8297cc8e2fb303f54aa3" placeholder="4"></input> <input size=2 ans="0e6523810856a138a75dec70a9cf3778a5c70b83ac915f22c33f05db97cb3e68" placeholder="5"></input>)]
+12: print("Median with odd data", modd)
+13: 
+14: # Calculate median for even data
+15: x2 = np.sort(<input size=2 ans="4135c7a9b1523a3cbcc8fd33c333c2f2b6b3f10ce37258472b25fa7d1ff9ab1d" placeholder="6"></input>)
+16: n2 = len(<input size=2 ans="e8de8df5b8cad1872f29631fc0d2c3c9ec3432f5760236a464a41d91aa9e2a8c" placeholder="7"></input>)
+17: m1 = x2[int(<input size=2 ans="97c5188747682f9c99200aeca23cf6526489fcdeda56a9d35509974862d56689" placeholder="8"></input> / 2) <input size=2 ans="14513179c9fa953f7b2c398ef7c29245911dc929bec6ae082afd1504c96453dc" placeholder="9"></input> <input size=2 ans="45297c633d331e6ac35169ebaaf75bc7fafd206ebb59ba4efd80566936e46eb0" placeholder="10"></input>]
+18: m2 = x2[int(<input size=2 ans="e1ba1d68ec31649b8563d3ee7ec375117775b910adf504e9b4b997c610ab90f7" placeholder="11"></input> <input size=2 ans="5b7f20d50a092eba68ea51ffe89efc94aee47e83c0c01bc7de95c83b3d6ce4b0" placeholder="12"></input> <input size=2 ans="88cf986449b61aeba90a4baedfaeba95cc12e8d04dedfebe53b78dd29fc0a4ac" placeholder="13"></input>)]
+19: meven = (<input size=2 ans="97ea510accdbe632ebe2a9e90d4323e7ab0f1b70a306689238d8d693b98bc8f9" placeholder="14"></input> + m2) <input size=2 ans="fcd5cec407cb4e81adb16a5c8ad4fadd39288f46d0f764266bb90655cecbc11b" placeholder="15"></input> <input size=2 ans="5b12bb4e8bd8bc9ede72cabec55a54c2d357e070fb2137478c69dbfcbea46fad" placeholder="16"></input>
+20: print("Median with even data", meven)
+21: 
+22: # Output Value
+23: median with odd data: 10
+24: median with even data: 11<br>
+Q1. Which library is used in this source code implementation? <input size=2 ans="a839cd4c064fd5ca3592a7b043e9fb40c1e77fc0cce50709cfdf1cc1bd4de345" placeholder="17"></input>
+Q2. What is the value of Median with odd data? <input size=2 ans="b24feb419bf88f66451a0a3a2becfefb4a45f5b178ab76fed93b2361a78002cb" placeholder="18"></input>
+</DIV>
+</pre>
+<DIV class="fl" style="width: 430px; height: 620px"><h4 id="code">Description</h4>
+<pre class="prettyprint" id="scoring-res"><img src="./img/2-median.png" alt="Median">
+</pre>
+</DIV><DIV class="fr" style="width: 1100px; height: 130px"><h4 id="code1">References</h4>
+<pre class="prettyprint" id="scoring-res">
+<h2 id="code1"></h2><a href="./references/references.pdf" target="_blank">Download</a>
+</pre>
+</DIV><a class="btn" href="javascript:newScoring()">Answer</a>
+<script type="text/javascript">
+$(function(){
+ prettyPrint();
+});
+</script>

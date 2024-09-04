@@ -1,0 +1,50 @@
+<h2 id="statement">14</h2>
+Fill in Blanks<br>
+<DIV class="fl" style="width: 670px; height: 620px"><h4 id="code">Source Code</h4>
+<pre class="prettyprint" id="scoring-res">
+01: # Library used
+02: import math as mt
+03: 
+04: # Example dataset
+05: data = [1,5,10,15,20]
+06: 
+07: # Calculate mean
+08: total = sum(<input size=2 ans="938d3b7bdec8b36a3a08f171c6d85a921cffe64ffa55b49fbcd232a0b4900054" placeholder="1"></input>)
+09: n = <input size=2 ans="99ae6e75895b3119176f73687ee3b95a1ee60fa6f2b02ea2402d2b5758792a22" placeholder="2"></input>(data)
+10: mean = total <input size=2 ans="1767f67f2a9d9b18d1d290ac57e437416692e417f50ddd8c3195616ba121f5eb" placeholder="3"></input> <input size=2 ans="2cc7542a8b16d7b8056dab04ed5d1cace89595f096c9e93bb3838a9ea6eaf86f" placeholder="4"></input>
+11: print("mean", mean)
+12: 
+13: # Calculate standard deviation
+14: square = ((<input size=2 ans="fd17a96e5ca910387800a304df1dcada3e0fe1cd465f5ca64d265fa1f19dfbb7" placeholder="5"></input> - mean) ** <input size=2 ans="2570ce03b300309d1f8d673ad5d5359d30b7a5d9a9c4aaa4b54c19cd2c683a78" placeholder="6"></input> for <input size=2 ans="df97b5c5a17d52aba1e1546f79783353d0ed5383eaf89810c366407ffbfb16b7" placeholder="7"></input> in data)
+15: var = sum(<input size=2 ans="0b097322edcb5a25622933ca78ef0471176e7d7f8a36083ed1ea7f28acc8a5d4" placeholder="8"></input>) <input size=2 ans="81335dc6ab0cebaf27287e5f675bc68cb72cd3ebb4e8d8ec87ffb8a689120a4d" placeholder="9"></input> (n - <input size=2 ans="664ed72cb47df01e52aa917c412f3a0f93ee063c6b0347d70ea1c13c182a0f10" placeholder="10"></input>)
+16: std = <input size=2 ans="cb94d24daf37dc27ee5db20a2c70efe3ae5114507738c0d8cc8ebd1bc5ff9a02" placeholder="11"></input>.sqrt(var)
+17: print("standard deviation", std)
+18: 
+19: # Calculate kurtosis
+20: quad = <input size=2 ans="e5c1e04bed16709a673e25e34645f516439da68e1be521294ffc29e40ab453f0" placeholder="12"></input>((<input size=2 ans="fdf53f572ca2081cbeaf8142cf68efb2dd775044d8c2057cb2994a56fc3a670d" placeholder="13"></input> - mean) ** <input size=2 ans="067187846d9df27b360d94f30875936c00fe77c03bc23d73606cbf2d4f2cdcc7" placeholder="14"></input> for <input size=2 ans="67e4320577bf62b37e4b5d59690c309550e4ebc2818f596d187ca0876667a484" placeholder="15"></input> in data)
+21: G2 = ((<input size=2 ans="f747072e60ff1d8b1f3aed8ab3f3cd3719b9bb7ae71859f3edc03c63f3c5875d" placeholder="16"></input><input size=2 ans="5b1349f5d03bf6f2f15452f3f5195bb2576271ff1f4d1a6f417c91b7ec54551e" placeholder="17"></input>(<input size=2 ans="bb74892cc136fe6307a6dc936086e6e4e0abdbf1ee2e57f528b1065c3022b082" placeholder="18"></input>+1)/((<input size=2 ans="1a24049b00d8b3aa6f3e27a4da962f00064d3dafdeee0bd86c3d97a9a6960238" placeholder="19"></input>-1)<input size=2 ans="fe24371b9247e626d8d796c2076dc79bb3f0ec9e95e3e88c226104d3d01d5405" placeholder="20"></input>(<input size=2 ans="47d3738ff5672b6320a3675cd98ce1d29c6634b5a46f3498a497985099cf7f82" placeholder="21"></input>-2)<input size=2 ans="8511b4531c53f88dc394b244a05a0df4baa3f69496ce67706614d433a8bd1ffd" placeholder="22"></input>(<input size=2 ans="fc9df697794f14a4ca28ef0237461b76af0c8c7083d555e2257a309a7ee315d4" placeholder="23"></input>-<input size=2 ans="aef3cad87003fbec23ff036c42d7edf2937a9c531ad96d848a0ecf31c39d7d8f" placeholder="24"></input>)))<input size=2 ans="b6378a26278e35cdd91737bfbba6bf9e4f810ab3f1512d1c961d80d5492d2d39" placeholder="25"></input>(quad/(std<input size=2 ans="7b23536965269b01e8cfedf5ddbf346d4afed2a866162599ff13d6297a04c51a" placeholder="26"></input><input size=2 ans="e8b1149d1dbaa27b81aefc54f3eb2836c34fc0f8871218fb33e447c78491415c" placeholder="27"></input>4))) - (<input size=2 ans="b936c02bd8d0e71b5423273a3cfdd5ca49abc71c64a2f3d8103f8406027614bd" placeholder="28"></input><input size=2 ans="9fb47213a52b2e203bdd1690eb8b5cdf009cfcc7ec53dfd5d87c2b0e70ab5abf" placeholder="29"></input>(<input size=2 ans="a9a6de465fafd148796a6332a28b5d5835fcceeda5fb5100eda9f659c7df05d1" placeholder="30"></input>-1)<input size=2 ans="c8c4fd3853719d5ab79b7c3d08d9d6d6925bc7e2c0971da7cf1585bdf09928b0" placeholder="31"></input><input size=2 ans="dd8faf0c2837b333c02355d6cc1c3a2746699395f298968d402e72c634c619f2" placeholder="32"></input>2/((<input size=2 ans="fb27c3eb17a6cdb3048dd53939698b0956d9e2ad2e87328b13912f75484352df" placeholder="33"></input>-2)<input size=2 ans="ed74f51369e41fcc1c0f43f56ded491f6844b227fde368afef4e80a30096a0ca" placeholder="34"></input>(<input size=2 ans="396b90331be86f97b918fc34997b50d3eda9c5dfe1aec4709c14c3bb886b4b2d" placeholder="35"></input>-<input size=2 ans="c129be943a4247d980c6b57de2aa46e53d762e5b31e357faa9ae1e2db5137c50" placeholder="36"></input>)))
+22: print("kurtosis", G2)
+23: 
+24: # Outpur Value
+25: mean: 10.2
+26: standard deviation: 7.60
+27: kurtosis: -1.38<br>
+Q1. Which library is used in this source code implementation? <input size=2 ans="6aacee290f1035a4238bd488d0af54744d84cb73f3d3a978186bb1561002b2a4" placeholder="37"></input>
+Q2. Which function is used to returns the square root of a number? <input size=2 ans="0877069bd9d8b78b74acaa161180cebff1f92d145d5ef8175366c4892f623358" placeholder="38"></input>
+Q3. What is the value of standard deviation? <input size=2 ans="d1556632e9e29fbe40d946c858a7fcebe26a8c27feed8ae58934e214f1b67de1" placeholder="39"></input>
+Q4. What is the value of mean? <input size=2 ans="e36062fd086c35392e79fcc2adbf247f4ced1a40b821b0a26cd3ce5606605eff" placeholder="40"></input>
+</DIV>
+</pre>
+<DIV class="fl" style="width: 430px; height: 620px"><h4 id="code">Description</h4>
+<pre class="prettyprint" id="scoring-res"><img src="./img/14-Kurtosis.png" alt="Kurtosis">
+</pre>
+</DIV><DIV class="fr" style="width: 1100px; height: 130px"><h4 id="code1">References</h4>
+<pre class="prettyprint" id="scoring-res">
+<h2 id="code1"></h2><a href="./references/references.pdf" target="_blank">Download</a>
+</pre>
+</DIV><a class="btn" href="javascript:newScoring()">Answer</a>
+<script type="text/javascript">
+$(function(){
+ prettyPrint();
+});
+</script>

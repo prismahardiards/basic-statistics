@@ -1,0 +1,58 @@
+<h2 id="statement">11</h2>
+Fill in Blanks<br>
+<DIV class="fl" style="width: 670px; height: 620px"><h4 id="code">Source Code</h4>
+<pre class="prettyprint" id="scoring-res">
+01: # Library used
+02: import numpy as np
+03: 
+04: # Example dataset
+05: data = [1,3,5,7,9,2,4,6,8,10]
+06: 
+07: # Sorting the data
+08: sorted = np.<input size=2 ans="eca4d238469bd51315782bb29563e11f2b3ba345afbec8b489ccb977db513cfe" placeholder="1"></input>(data)
+09: 
+10: # Determine the length of data
+11: n = len(<input size=2 ans="e7aadf752c2433585f5bb8b3bd693191fb11a2cccbe9e169eeb49678019de0eb" placeholder="2"></input>)
+12: print("length", n)
+13: 
+14: # Determine the value position of decile
+15: k = 3
+16: Dk = k * (<input size=2 ans="5676bd4655af1020d326b015083272efeb919e5ce6ff4043d0d7475a9b85c363" placeholder="3"></input>-<input size=2 ans="793a84a351bd364d2f0323b67b39407711e54bc4748c439fb32734538ef8dd15" placeholder="4"></input>)<input size=2 ans="f44fc4230a53e4fd4116adc7f1aa8bdfc907caf21d0996e9518669e9a20029c6" placeholder="5"></input>10
+17: print("value position of decile", Dk)
+18: 
+19: # Check the balue position of decile
+20: if Dk.is_integer():
+21:     Dv = sorted[<input size=2 ans="1ade261fa62ef15b250df06540534d7467c93f906618273d8fb606a193efa547" placeholder="6"></input>(Dk) <input size=2 ans="a9390eb5e63f4ed14f6dfef0246135b02f6265aeb15303aef234982278c182a1" placeholder="7"></input> <input size=2 ans="63ecbfa3a1ad34a1fdd5e3dd3aeaec31456d1d676552c654d5ecf7dab0b2f4f8" placeholder="8"></input>]
+22: else:
+23:     xp1 = sorted[<input size=2 ans="8092566d1d0f333137b470974dbeca0731e97ee2a585ea82a8ae36f9c1234cbc" placeholder="9"></input>(<input size=2 ans="fd999351a0060a3e18ff78bdbd30e0787ad1ea6bf89a0d02ae17b7085c882c36" placeholder="10"></input>.floor(Dk))]
+24:     xp2 = <input size=2 ans="0f786775f49c58275573937ce71e7da6b2f30b5a24e4ab74116f4e9b307f74d4" placeholder="11"></input>[int(<input size=2 ans="ce33f7d0462b0031d6ce4d7ff85981983905b26d8fc1f6811e350f0e1f922da8" placeholder="12"></input>.ceil(Dk))]
+25:     Dm = <input size=2 ans="ab3e2fee145f0bcd82570b00179e1ec44553f01d95381b06fdbb8ecb21671640" placeholder="13"></input>(Dk)
+26: 
+27:     Dv = xp1 <input size=2 ans="9d688d4c5138713bcaa1ceef3de0e6089aea415e8f8ea11e56bd30c7c9f7abfa" placeholder="14"></input> (xp2-xp1)*(<input size=2 ans="27a38a86f43ac68611e630872439d24ac9694337cfbb1f86d348b5f478af2a31" placeholder="15"></input>-<input size=2 ans="17454e72b57ee2bfcee07379269c94b90459982172e8a52c6c564e6e6ef08a2a" placeholder="16"></input>)
+28: 
+29: print("decile", Dv)
+30: 
+31: # Output Value
+32: length: 10
+33: value position of decile: 2.7
+34: decile: 3.7<br>
+Q1. Which library is used in this source code implementation? <input size=2 ans="eb8dff404925f73771f4be49f5ad256d5e73ce31fd86ff76b3661f1b6e654f63" placeholder="17"></input>
+Q2. Which function is used to counting the amount of data? <input size=2 ans="6725d110938c0151a74bc835e7f2bd2bc90c091ba541086e07785f29162d95c0" placeholder="18"></input>
+Q3. Which keyword is used to determine the constant value at the decile position? <input size=2 ans="c7d5f3b42adad9b4f6b88db50008847dfb213f6ff8d48b56f1370613a82b11b3" placeholder="19"></input>
+Q4. What is the value of decile? <input size=2 ans="a02d7ce54bd9f301cb3fb102ebed14b11aabed8e161c725709f5f0626f51e229" placeholder="20"></input>
+Q5. What is the value of value position of decile? <input size=2 ans="f4d40afb788e7786eab31e0b8de9c75e713c3b13f5e41649b4f724e93c8b723c" placeholder="21"></input>
+</DIV>
+</pre>
+<DIV class="fl" style="width: 430px; height: 620px"><h4 id="code">Description</h4>
+<pre class="prettyprint" id="scoring-res"><img src="./img/11-decile.png" alt="Decile">
+</pre>
+</DIV><DIV class="fr" style="width: 1100px; height: 130px"><h4 id="code1">References</h4>
+<pre class="prettyprint" id="scoring-res">
+<h2 id="code1"></h2><a href="./references/references.pdf" target="_blank">Download</a>
+</pre>
+</DIV><a class="btn" href="javascript:newScoring()">Answer</a>
+<script type="text/javascript">
+$(function(){
+ prettyPrint();
+});
+</script>
